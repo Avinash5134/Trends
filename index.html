@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trends</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+
+            </div>
+            <div class="nav-search">
+                <input placeholder="Search here" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <a href="web.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Shop till you drop, with the deals that never stop</p>
+                <button id="b">Explore</button>
+            </div>
+            <img src="m3.png" alt="">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="img1.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h3>Cotton Trending Shirt's</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <p>Starting from Rs. 499</p>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="img2.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h3>Men's Trending Polo T-Shirt's</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <p>Starting from Rs. 999</p>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                    <div class="crd">
+                        <img src="img3.jpg" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h3>Best Oversized T-shirts</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 799</p>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <img src="img4.jpg" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h3>Stylish Cargo's Collection</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 1499</p>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Women Card -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>Trends <span>Women's Wear</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="img5.jpeg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 500</p>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="img6.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Best Ladies Kurti's Collection</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 1500</p>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="img7.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Best in Sarees</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 2500</p>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="img8.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                            <h2>Stay ahead in fashion</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <p>Starting from Rs. 1000</p>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <p>we invite you to delve into the roots of our journey, discover the faces behind the brand, and explore the principles that guide us. From our sourcing practices to the innovative minds shaping our collections, we're here to redefine your shopping experience with authenticity, style, and a touch of the extraordinary.</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Who we are ?</h1>
+                            <p>
+                                Welcome to Trends – where style meets substance. Our journey began with a commitment to redefine the online shopping experience, offering curated collections that seamlessly blend fashion-forward trends with unmatched quality. At Trends, we believe in more than just transactions; we believe in creating a community where every purchase is a statement of style and a testament to our dedication to customer satisfaction. Explore our curated selections and join us in the pursuit of fashion that transcends ordinary shopping.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Talk</h1>
+                        <p>LEAVE A MESSAGE. We Love to hear from you</p>
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact Us Today</h1>
+                            <p>Address : Chandigarh Patiala National Highway (NH-64) Punjab-140401,India</p>
+                            <p>Email : trends@gmail.com</p>
+                            <p>Number : +91 9999 8888 77</p>
+                            <p>Monday to Saturday: 9:00AM to 4:00PM</p>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.175135209826!2d76.65720287543219!3d30.516086474689597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1710052820778!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="form">
+                        <h1>Connect with Us By Filling Form</h1>
+                        <input type="text" placeholder="Enter First Name"> <br>
+                        <input type="text" placeholder="Enter Last Name"> <br>
+                        <input type="text" placeholder="Enter Email"> <br>
+                        <input type="text" placeholder="Enter Phone Number"> <br>
+                        <input type="text" placeholder="Enter Address"> <br>
+                        <button>Submit</button>
+
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>Trends Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price!!!: 80%OFF</h2>
+                            <p>To avail the product in special price do these:</p>
+                            <p>(1)Register on the site for free to get discount coupon</p>
+                            <p>(2)Then at the time of payment apply the coupon code to get discount.</p>
+                           <div class="btn">
+                            <button>Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <!-- <button  class="back">Back</button> -->
+                    </div>
+                </div>
+
+                <!-- blogs -->
+                <div class="trends">
+                    <div class="head">
+                        <h1>Trends <span>Top Blogs</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="blog">
+                            <img src="img9.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Girl Cloths</h2>
+                                <p>Explore the latest trends in girls' fashion by featuring vibrant colors, sustainable fabrics, and stylish silhouettes in your blog. </p>
+                                <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="img10.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Boys Cloths</h2>
+                                <p>Trending boys' clothes showcase a blend of streetwear aesthetics, featuring oversized hoodies, graphic tees, and utility-inspired details.</p>
+                                <a href="https://www.apetogentleman.com/">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="img11.jpg" alt="" height="200px" >
+                            <div class="blogText">
+                                <h2>Latest Fashion Trends</h2>
+                                <p>The latest fashion trends embrace sustainability with eco-friendly fabrics.</p>
+                                <a href="https://www.utsavfashion.com/blog/concepts/top-indian-fashion-trends-of-2023-you-cannot-miss">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="img12.webp" alt="" height="150px" >
+                            <div class="blogText">
+                                <h2>Upcoming Fashion Trends</h2>
+                                <p>Upcoming fashion trends anticipate a fusion of vintage and futuristic elements, showcasing a return to classic tailoring with a modern twist.</p>
+                                <a href="https://www.hellomagazine.com/hfm/fashion-trends/505931/2024-fashion-trends-to-have-on-your-radar/">Read More</a>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- login -->
+                <div class="account-page">
+                    <div class="container2">
+                        <div class="form-txt">
+                            <i><h1>Login or Register now to know more about latest clothing trends </h1></i>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="register.jpg" height="300px" width="400px">
+                            </div>
+                            
+                            <div class="col-2">
+                                <div class="form-container">
+                                    <span onclick="login()">Login</span>
+                                    <form id="LoginForm">
+                                        <input type="text" placeholder="Username">
+                                        <input type="password" placeholder="Password">
+                                        <button type="submit" class="btn2">Login</button>
+                                        <a href="">Forgot Password</a>
+                                    </form>
+        
+                                    <hr>
+        
+                                    <span onclick="register()">Register</span>
+                                    <form id="RegForm">
+                                        <input type="text" placeholder="Username">
+                                        <input type="email" placeholder="Email">
+                                        <input type="password" placeholder="Password">
+                                        <input type="password" placeholder="Password Confirmation">
+                                        <button type="submit" class="btn2">Register</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Letter -->
+
+                <div class="letter">
+                    <div class="letterText">
+                        <h1>Sign Up for NewsLetter</h1>
+                        <p>Get E-mail updates about our latest shop and <span id="one">special offers</span></p>
+                    </div>
+                    <div class="inp">
+                        <input type="text" placeholder="Enter Email">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+
+
+                <!-- Footer -->
+
+                <div class="footer">
+                    <div class="Ftext">
+                        <h1>Trends</h1>
+                        <p>Service</p>
+                        <p>Customer Feedback</p>
+                        <p>New Arrival</p>
+                        <p>Coming Soon....</p>
+        
+                    </div>
+
+                    <div class="Ftext">
+                        <h1>Informations</h1>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                        <p>Terms and condition</p>
+                        <p>Return and Exchange</p>
+                        <p>Private Policy</p>
+        
+                    </div>
+                    <div class="Ftext">
+                        <h1>Contact</h1>
+                        <p>Address:Punjab Campus,
+                            Punjab- 140401, India</p>
+                        <p>Phone:7488515041</p>
+                        <p>Email:contact@trends.com</p>
+        
+                    </div>
+                    <div class="Ftext">
+                        <h1>Help</h1>
+                        <p>Help Center</p>
+                        <p>Community Guideline</p>
+                        <p>Shops</p>
+                    </div>
+
+                    <div class ="col-install">
+                        <h1>Install App</h1>
+                        <p>From App Store or Google Play</p>
+                        <div class="row">
+                            <img id="abc" src="app.jpg" alt="">
+                            <img id="xyz"  src="play.jpg" alt="">
+                        </div>
+                        <h3>Secured Payment Gateways</h3>
+                        <img src="pay.png">
+                    </div>
+                </div>
+            </div>
+    
+            <script src="script.js"></script>
+</body>
+
+</html>
